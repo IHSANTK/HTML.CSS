@@ -1,0 +1,288 @@
+body{
+    margin: 0;
+}
+header{
+    height: 120px;
+    display: flex;
+    top: 0;
+    position: sticky;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
+    background-color: rgb(255,255,255,0.5);
+}
+header h1{
+    margin-top: 35px;
+    margin-left: 50px;
+    font-size: 40px;
+    color: orangered;
+}
+header nav{
+    margin-left: 300px;
+    width: 750px;
+    height: 100%;
+    margin-left: 170px;
+}
+header span{
+ 
+    width: 100px;
+    height: 100%;
+    float: left;
+    text-align: center;
+    align-items: center;
+}
+header span h5{
+    margin-top: 50px;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header button{
+width: 160px;
+height: 40px;
+margin-right: 70px;
+margin-top: 50px;
+border: 0;
+border-radius: 25px;
+background-color: rgb(95, 179, 137);
+color: white;
+}
+#section-1{
+    margin-top:  0;
+    height: 500px;
+    text-align: center;
+}
+#section-1 h1{
+   font-size: 30px;
+}
+#section-1 h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+}
+#section-1 button{
+  width: 170px;
+  height: 40px;
+  border: 0;
+  border-radius: 25px;
+  background-color: rgb(95, 179, 137);
+  color: white;
+}
+#section-2{
+height: 470px;
+}
+.section-2-indiv{
+  height: 400px;
+  width: 75%;
+  margin-left: 180px;
+}
+.grid-div{
+  margin-left: 15px;
+  margin-top: 15px;
+  width: 140px;
+  height: 190px;
+  float: left;
+  border: 0.5px solid;
+  border-radius: 5px;
+  border-color: rgb(222, 228, 230);
+ 
+}
+#section-2 img{
+    margin-top: 10px;
+}
+#section-3{
+    padding-top: 10px;
+    height: 150px;
+  
+    padding-left: 450px;
+}
+li{
+    color: rgb(78, 76, 76);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+   list-style-type: circle ;
+
+}
+li::marker{
+    color: rgb(255, 94, 0);
+}
+b{
+    color: rgb(31, 29, 29);
+}
+#section-4{
+    height: 500px;
+    background-color: blue;
+    display: flex;
+}
+#section-4 div{
+    width: 50%;
+    height: 100%;
+    background-color: #3379a2;
+}
+#section-4 #div-1 img{
+    width: 100%;
+    height: 100%;
+}
+#section-4 #div-2 h1{
+  margin-top: 100px;
+}
+#section-4 #div-2 h1,h2,h3,p{
+    margin-left: 50px;
+    color: white;
+}
+#section-4 #div-2 p,h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#section-4 button{
+    margin-left: 250px;
+    width: 170px;
+    height: 40px;
+    border: 0;
+    border-radius: 25px;
+    background-color: rgb(95, 179, 137);
+    color: white;
+}
+#section-5{
+    height: 300px;
+    padding-left: 100px;
+}
+#section-5 h2{
+    margin-left: 500px;
+    color: black;
+}
+#section-5 h1{
+    margin-left: 400px;
+}
+#section-6{
+    height: 500px;
+    background-color: #3379a2;
+    display: flex;
+}
+#section-6 #div-1{
+    width: 50%;
+    padding-top: 100px;
+
+ }
+#section-6 #div-1 h1,h2,h3,p{
+          margin-left: 50px;
+          color: white;
+ }
+ #section-6 #div-1 p,h3{
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ #section-6 button{
+          margin-left: 250px;
+          width: 170px;
+          height: 40px;
+          border: 0;
+          border-radius: 25px;
+          background-color: rgb(95, 179, 137);
+          color: white;
+}
+#section-6 #div-2 img{
+    width: 100%;
+    height: 100%;
+}
+#section-6 li{
+    margin-left: 30px;
+    color: white;
+    font-size: 17px;
+}
+#section-7{
+    margin-top: 20px;
+    padding-top: 200px;
+    height: 350px;
+    background-color: blue;
+    background-image: url(https://www.focusatwill.com/app/signoff-office-image@1x.812d3f1ab69ce51a8f99cecbcb7f39b6.jpg);
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+}
+#section-7 h4{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: rgb(48, 46, 46);
+}
+#section-7 button{
+    width: 170px;
+    height: 37px;
+    border: 0;
+    border-radius: 25px;
+    background-color: rgb(33, 173, 103);
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#common-h2{
+ margin-left: 500px;
+}
+#section-8{
+    height: 650px;
+    padding-left: 250px;
+    padding-right: 250px;
+    display: grid;
+    grid-template-rows: repeat(8,70px);
+    grid-gap: 20px;
+}
+#section-8 div:hover{
+    background-color:rgb(201, 191, 191) ;
+}
+#section-8 div{
+    padding-left: 0px; 
+    background-color: rgb(248, 240, 240);
+    border-radius: 5px;
+}
+#section-8 div h2{
+ float: left;
+ color: rgb(80, 77, 77);
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#section-8 div h1{
+   height: 40px;
+   width: 40px;
+   margin-top: 10px;
+   margin-right: 10px;
+   margin-left: 740px;
+   font-size: 35px;
+   text-align: center;
+   background-color:white;
+   border-radius: 40px;
+}
+#section-9{
+   height: 200px;
+   
+  border-top: 10px solid;
+  border-color: lightgrey;
+  display: flex;
+}
+#section-9 div{
+    width: 110px;
+    height: 80%;
+    margin-left: 50px;
+  
+   
+
+}
+#section-9 div h5:hover{
+    text-decoration: underline;
+}
+#section-9 div h5{
+    margin-left:25px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#section-9 div ul{
+
+    margin-left: -15px;
+}
+#section-9 div li:hover{
+  color: orangered;
+}
+#section-9 div li{
+ list-style-type: none;
+ font-size: 13px;
+ margin-top: 5px;
+ 
+}
+#section-9 img{
+    margin-top: 10px;
+   margin-left: 300px;
+    width: 150px;
+    height: 40px;
+}
